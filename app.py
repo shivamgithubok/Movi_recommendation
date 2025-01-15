@@ -65,8 +65,8 @@ def recommend(movie):
 st.header("Movie Recommender System")
 
 # Load data files
-movies_file = os.path.join('C:/Users/Asus/python/Project/Recomendation_movi/movie_list.pkl')
-similarity_file = os.path.join('C:/Users/Asus/python/Project/Recomendation_movi/similarity.pkl')
+movies_file = os.path.join('movie_list.pkl')
+similarity_file = os.path.join('similarity.pkl')
 
 try:
     movies = pickle.load(open(movies_file, 'rb'))
